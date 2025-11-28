@@ -178,3 +178,5 @@ The generator pulls from a maintained set of Evinced SDK definitions to ensure a
 Contributions are very welcome!
 
 If an Evinced SDK receives updates or new fields appear in reports, feel free to submit a PR or open an issue and types will be regenerated.
+
+You can open an issue here: https://github.com/EvincedShane/evinced-web-sdk-types
