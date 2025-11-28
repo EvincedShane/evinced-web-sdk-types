@@ -1,0 +1,22 @@
+{
+  "name": "evinced-web-sdk-types",
+  "version": "1.0.1",
+  "main": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
+  "author": "Shane @ Evinced",
+  "keywords": [
+    "Evinced"
+  ],
+  "scripts": {
+    "generate": "ts-node scripts/generate-types.ts",
+    "prepublishOnly": "npm run generate"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.1"
+  }
+}
